@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreApiTutorial</name>
+    </assembly>
+    <members>
+        <member name="M:CoreApiTutorial.Controllers.EmployeesController.GetEmployees">
+            <summary>
+            Get all employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApiTutorial.Controllers.EmployeesController.GetEmployee(System.Guid)">
+            <summary>
+            Get an employee by Id
+            </summary>
+            <param name="id"> Employee Guid to fetch </param>
+        </member>
+        <member name="M:CoreApiTutorial.Controllers.EmployeesController.AddEmployee(CoreApiTutorial.Models.Employee)">
+            <summary>
+            Add a new employee
+            </summary>
+        </member>
+        <member name="M:CoreApiTutorial.Controllers.EmployeesController.DeleteEmployee(System.Guid)">
+            <summary>
+            Delete an employee
+            </summary>
+            <param name="id"> Employee Guid to remove </param>
+        </member>
+        <member name="M:CoreApiTutorial.Controllers.EmployeesController.UpdateEmployee(System.Guid,CoreApiTutorial.Models.Employee)">
+            <summary>
+            Update an employee
+            </summary>
+            <param name="id"> Employee Guid to update </param>
+        </member>
+    </members>
+</doc>
