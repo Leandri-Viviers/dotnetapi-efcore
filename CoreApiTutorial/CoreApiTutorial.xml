@@ -32,6 +32,7 @@
             Update an employee
             </summary>
             <param name="id"> Employee Guid to update </param>
+            <param name="employee"></param>
         </member>
     </members>
 </doc>
